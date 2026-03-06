@@ -1,0 +1,32 @@
+
+1. Secure File Encryption CLI 🔐
+
+== Problem
+=== Users want to encrypt files before storing or sharing them.
+
+== Features
+
+Encrypt any file using AES-256-GCM
+Generate random encryption key
+Password-based encryption using PBKDF2
+
+Store metadata:
+salt
+iv
+authTag
+
+Decrypt file back.
+
+Tech
+Node crypto
+TypeScript
+CLI (commander)
+
+
+| Feature     | Purpose Achieved                    |
+| ----------- | --------------------------- |
+| AES-256-GCM | encryption + authentication |
+| PBKDF2      | password strengthening      |
+| salt        | prevents rainbow attacks    |
+| IV          | prevents ciphertext reuse   |
+| authTag     | tamper detection            |

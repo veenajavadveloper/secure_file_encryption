@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug secure file encryption and decryption",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/testSetup/cli_test.ts",
+      "runtimeArgs": ["--loader", "ts-node/esm"],
+      "cwd": "${workspaceFolder}",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

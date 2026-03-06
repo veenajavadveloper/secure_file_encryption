@@ -1,0 +1,7 @@
+
+Can be used individual command to execute :
+node ./src/cli/index.ts encrypt -i ./testSetup/file_to_encrypt.txt -o ./testSetup/file_encrypted.enc -p password 
+
+
+or call this command from the cli_test.ts
+node ./src/cli/index.ts encrypt -i ./testSetup/file_to_encrypt.txt -o ./testSetup/file_encrypted.enc -p password 
