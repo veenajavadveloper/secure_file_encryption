@@ -23,10 +23,22 @@ TypeScript
 CLI (commander)
 
 
-| Feature     | Purpose Achieved                    |
-| ----------- | --------------------------- |
-| AES-256-GCM | encryption + authentication |
-| PBKDF2      | password strengthening      |
-| salt        | prevents rainbow attacks    |
-| IV          | prevents ciphertext reuse   |
-| authTag     | tamper detection            |
+[cols="1,2", options="header"]
+|===
+|Feature |Purpose Achieved
+
+|AES-256-GCM
+|Encryption + authentication
+
+|PBKDF2
+|Password strengthening
+
+|Salt
+|Prevents rainbow table attacks
+
+|IV
+|Prevents ciphertext reuse
+
+|AuthTag
+|Tamper detection
+|===
